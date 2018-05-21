@@ -10,6 +10,10 @@
     <Description>.NET Core Api Wrapper around EdGate's Api</Description>
     <Copyright>Copyright 2018 (c) Andculture</Copyright>
     <PackageTags>EdGate NetCore</PackageTags>
+    <PackageLicenseUrl>https://github.com/AndcultureCode/edgate-netcore-api/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIconUrl>https://andculture.com/favicon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/AndcultureCode/edgate-netcore-api</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
