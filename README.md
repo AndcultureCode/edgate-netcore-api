@@ -1,10 +1,10 @@
 # Zoom NetCore Api
 
-Dotnet Core Package for connecting to [http://correlation.edgate.com/api/docs](EdGate's Api). This repository is a work in progress, and does not yet encompass all the methods available in the EdGate Api.
+Dotnet Core Package for connecting to [EdGate's Api](http://correlation.edgate.com/api/docs). This repository is a work in progress, and does not yet encompass all the methods available in the EdGate Api.
 
 ## Installation
 
-Install from the Nuget repository [https://www.nuget.org/packages/AndcultureCode.EdGate.NetCore.Api/]
+Install from the Nuget repository https://www.nuget.org/packages/AndcultureCode.EdGate.NetCore.Api/
 
 ## Usage
 
@@ -40,20 +40,20 @@ var profile = client.Profile.GetProfile();
 
 ### IEdGateStandardsClient
 
-* `List<Standard> ExportStandards(string standardsSetId, string subject = "")` - Export list of standards for a given standards set and optionally a subject. [http://api.edgate.com/navigate/#!/Standards/exportStandards](Api Docs)
+* `List<Standard> ExportStandards(string standardsSetId, string subject = "")` - Export list of standards for a given standards set and optionally a subject. [Api Docs](http://api.edgate.com/navigate/#!/Standards/exportStandards)
 
     | Parameter     | Description   |
     | ------------- | ------------- |
     | standardsSetId |  Id of the parent standards set to filter by |
     | subject |  _(optional)_ Subject that the standards must be associated with |
 
-* `List<StandardsSet> GetStandardsSets()` - Get the list of standards set objects. [http://api.edgate.com/navigate/#!/Standards/findStandardsSets](Api Docs)
+* `List<StandardsSet> GetStandardsSets()` - Get the list of standards set objects. [Api Docs](http://api.edgate.com/navigate/#!/Standards/findStandardsSets)
 
     | Parameter     | Description   |
     | ------------- | ------------- |
     | no params     |               |
 
-* `List<Standard> GetStandardsBySet(string standardsSetId, string subject, string grade, bool correlate)` - Get list of standards for a given standards set. [http://api.edgate.com/navigate/#!/Standards/findStandardList](Api Docs)
+* `List<Standard> GetStandardsBySet(string standardsSetId, string subject, string grade, bool correlate)` - Get list of standards for a given standards set. [Api Docs](http://api.edgate.com/navigate/#!/Standards/findStandardList)
 
     | Parameter     | Description   |
     | ------------- | ------------- |
@@ -61,7 +61,7 @@ var profile = client.Profile.GetProfile();
     | subject |  Subject that the standards must be associated with |
     | grade |  Grade that the standards must be associated with |
 
-* `Standard GetStandard(string standardId)` - Get data for an individual standard. [http://api.edgate.com/navigate/#!/Standards/findStandardById](Api Docs)
+* `Standard GetStandard(string standardId)` - Get data for an individual standard. [Api Docs](http://api.edgate.com/navigate/#!/Standards/findStandardById)
 
     | Parameter     | Description   |
     | ------------- | ------------- |
