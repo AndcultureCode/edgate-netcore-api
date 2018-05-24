@@ -1,4 +1,4 @@
-# Zoom NetCore Api
+# EdGate NetCore Api
 
 Dotnet Core Package for connecting to [EdGate's Api](http://correlation.edgate.com/api/docs). This repository is a work in progress, and does not yet encompass all the methods available in the EdGate Api.
 
